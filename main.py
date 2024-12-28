@@ -1,16 +1,19 @@
 import flet as ft
 from ui import pages
 from ui import settings
+from ui.themes import DarkTheme
 
 
 async def main(page: ft.Page):
     settings.window_settings(page)
 
+    page.dark_theme = DarkTheme()
+
     def route_change(_):
         page.views.clear()
 
         if page.route == "/":
-            page.views.append(pages.HomePage(page))
+            page.views.append(pages.MainPage(page))
 
         page.update()
 
