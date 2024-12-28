@@ -1,3 +1,3 @@
-from .theme_dark import ThemeDark
+from .dark_theme import DarkTheme
 
-__all__ = ["ThemeDark"]
+__all__ = ["DarkTheme"]
