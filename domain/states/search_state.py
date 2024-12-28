@@ -1,0 +1,2 @@
+class SearchState:
+    state = "on"

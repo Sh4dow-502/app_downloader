@@ -1,0 +1,5 @@
+__pycache__/
+pruebas.py  
+.venv/
+.env/
+storage/
