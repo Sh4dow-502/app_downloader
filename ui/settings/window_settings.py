@@ -18,4 +18,4 @@ def window_settings(page: ft.Page):
     # page.window.title_bar_hidden = True
 
     # En linux no funciona
-    # page.window.resizable = False
+    page.window.resizable = False
